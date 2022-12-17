@@ -1,0 +1,49 @@
+[2:21 pm, 17/12/2022] +91 89289 65115: #include <stdio.h>
+
+int fib(int n)
+{
+    //first base condition check or second base condition check.
+    if (n==0||n==1)
+    return n;
+    else
+    return fib (n-1)+fib(n-2);
+}
+void main ()
+{ 
+
+printf("Welcome To C-programing\n");
+printf("programed by: \n1.Abdul Basit\n2.Alam shaikh\n3.Aman sheikh\n4.Sayyad Hussain\n");
+printf("fibonacei series by using recursion\n");
+    int n;
+    printf("enter limit:");
+    scanf("%d",&n);
+    for (int i=0;i<n;i++)
+    {
+        printf("%d", fib(i));
+    }
+    }
+[2:22 pm, 17/12/2022] +91 89289 65115: #include <stdio.h>
+int f(int n)
+{
+
+ if (n==1)
+ {
+ return 1;
+ }
+ else
+ {
+ return n * f(n-1);
+ }
+
+}
+void main()
+{
+printf("Welcome To C-programing\n");
+printf("programed by: \n1.Abdul Basit\n2.Alam sheikh\n3.Aman sheikh\n4.Sayyad Hussain\n");
+printf("Finding a Factorial of Number:");
+int n;
+printf("\nEnter number:");
+scanf("%d",&n);
+int result=f(n);
+printf("Factorial is %d", result);
+}
